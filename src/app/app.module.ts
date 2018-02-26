@@ -2,9 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
-import { AppComponent } from './app.component';
-import { ComponentsComponent } from './components/components.component';
-import { ComponentComponent } from './components/component/component.component';
+import { AppComponent } from './components/component/app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { RecipesComponent } from './components/recipes/recipes.component';
 import { RecipeDetailComponent } from './components/recipes/recipe-detail/recipe-detail.component';
@@ -17,8 +15,6 @@ import { ShoppingEditComponent } from './components/shopping-list/shopping-edit/
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentsComponent,
-    ComponentComponent,
     HeaderComponent,
     RecipesComponent,
     RecipeDetailComponent,
